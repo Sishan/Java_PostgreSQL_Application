@@ -9,9 +9,8 @@ Before running this application, make sure you have load the sql file using:
 
 					\i /Users/sishanchen/Desktop/CreateTables.sql
 
-Instruction for using this application:
-There is an runable .jar file in the package, it should be able to directly run using following command:
-
+Instruction for using this application:<br />
+There is an runable .jar file in the package, it should be able to directly run using following command:<br />
 Open your terminal, type:
 
 					java -jar /Users/sishanchen/Desktop/Assignment-6/hw6_sc.jar (please replace with the right path)
@@ -19,8 +18,8 @@ Open your terminal, type:
 Once the application lunched,  
 0) Connect to your local database:
 	*** IMPORTANT *** 
-	Input your local database environment parameters using command line:
-	Input order: Server,port,dataBase,username,password
+	Input your local database environment parameters using command line:<br />
+	Input order: Server,port,dataBase,username,password<br />
 	Sample input:
 					localhost,5432,postgres,ricedb,postgres
 					
