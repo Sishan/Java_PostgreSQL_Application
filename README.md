@@ -144,8 +144,8 @@ Homework query requirements:
    					-disp:-meet_event:SouthConfed,E0307
 					
 					
-10) For a Meet, display the scores of each school, sorted by scores:
-	Type: "-disp:-meet_allSchool:[meet-name]", replace meet-name with target meet-name
+10) For a Meet, display the scores of each school, sorted by scores:\n
+	Type: "-disp:-meet_allSchool:[meet-name]", replace meet-name with target meet-name\n
 	Sample input: 
 	
 				        -disp:-meet_allSchool:SouthConfed
