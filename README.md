@@ -28,14 +28,18 @@ Once the application lunched,
 1) Set load file directory accordingly:
 	*** IMPORTANT *** 
 	Type: "-i:filepath"
+	
 	Sample input: 
+	
 					-l:/Users/sishanchen/Desktop/Assignment-6/sampleInputFile.csv
 
 
 2) Set save SQL tables directory accordingly:
 	*** IMPORTANT *** 
 	Type: "-s:filepath"
+	
 	Sampel input:
+	
 					-s:/Users/sishanchen/Desktop/testOutput.csv
 
 
@@ -43,14 +47,19 @@ Now you will be able to run Driver.java which is the entrance for this applicati
 
 3) To get help:
 	Type "-h" in the console
+	
 	Sample input:
+	
 					-h
 					
 					
 4) To insert or update data for specific table:
 	Type "-i:tableName", and the application will show what is the required type for input parameters
+	
 	Then type "[att]", replace att with table name and attributes
+	
 	Sample input:
+	
 				   -i:Org							//insert into Org table
 				   and then:
 				   U111,UCLA,TRUE									
@@ -97,6 +106,7 @@ Homework query requirements:
 5) For a Meet, display a Heat Sheet:
    Type "-disp:-meet:[meet_name]", replace meet_name with the target meet name
    Sample input: 
+   
 					-disp:-meet:UT_Meet
 
 
@@ -105,6 +115,7 @@ Homework query requirements:
    Type "-disp:-meet_partcipant:[meet_name,participant_id]", replace meet_name and 
    participant with target meet name and participant id
    Sample input: 
+   
 					-disp:-meet_participant:SouthConfed,P363719
 	
 	
@@ -112,6 +123,7 @@ Homework query requirements:
    Type "-disp:-meet_school_own:[meet_name,school_id]", replace meet_name and 
    school_id with target meet name and school id
    Sample input:
+   
 					-disp:-meet_school_own:SouthConfed,U430
 
 
@@ -119,6 +131,7 @@ Homework query requirements:
    Type "-disp:-meet_school_opp:[meet_name,school_id]", replace meet_name and 
    school_id with target meet name and school id
    Sample input:   
+   
    					-disp:-meet_school_opp:SouthConfed,U430
 					
 					
@@ -127,10 +140,12 @@ Homework query requirements:
    Type "-disp:-meet_event:[meet_name,event_id]", replace meet_name and event_id
    with meet name and event id
    Sample input:    
+   
    					-disp:-meet_event:SouthConfed,E0307
 					
 					
 10) For a Meet, display the scores of each school, sorted by scores:
 	Type: "-disp:-meet_allSchool:[meet-name]", replace meet-name with target meet-name
 	Sample input: 
-				    -disp:-meet_allSchool:SouthConfed
+	
+				        -disp:-meet_allSchool:SouthConfed
