@@ -5,7 +5,7 @@ This README file includes all useful sample input,
 Keep it opened and copy/paste all commands makes life easy
 ***********************************************************
 
-##Before running this application, make sure you have load the sql file using:
+## Before running this application, make sure you have load the sql file using:
 
 					\i /Users/sishanchen/Desktop/CreateTables.sql
 
@@ -15,7 +15,7 @@ Open your terminal, type:
 
 					java -jar /Users/sishanchen/Desktop/Assignment-6/hw6_sc.jar (please replace with the right path)
 
-##Once the application lunched,  
+## Once the application lunched,  
 0) Connect to your local database:<br />
 	*** IMPORTANT *** <br />
 	Input your local database environment parameters using command line:<br />
@@ -43,7 +43,7 @@ Open your terminal, type:
 					-s:/Users/sishanchen/Desktop/testOutput.csv
 
 
-##Now you will be able to run Driver.java which is the entrance for this application:<br />
+## Now you will be able to run Driver.java which is the entrance for this application:<br />
 
 3) To get help:<br />
 	Type "-h" in the console<br />
@@ -101,7 +101,7 @@ Open your terminal, type:
 				   2,E0307,SouthConfed,P246719,2,15.222222			
 	
 	
-##Homework query requirements:<br />
+## Homework query requirements:<br />
 
 5) For a Meet, display a Heat Sheet:<br />
    Type "-disp:-meet:[meet_name]", replace meet_name with the target meet name<br />
