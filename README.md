@@ -19,7 +19,7 @@ Once the application lunched,
 0) Connect to your local database:<br />
 	*** IMPORTANT *** <br />
 	Input your local database environment parameters using command line:<br />
-	Input order: Server,port,dataBase,username,password<br />
+	Input order: Server,port,dataBase,username,password
 	
 	Sample input:
 					localhost,5432,postgres,ricedb,postgres
